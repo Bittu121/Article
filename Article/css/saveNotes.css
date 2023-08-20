@@ -1,0 +1,66 @@
+@media screen and (max-width: 1200px) {
+  /* start responsive navbar */
+  .navigation {
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+  }
+  .nav-left {
+    flex-direction: column;
+  }
+  .nav-left ul {
+    flex-direction: column;
+    margin: 0px 35px;
+  }
+}
+
+#addBtn{
+  background-color: #2d3436;
+  color: white;
+  border: 0;
+  outline: 0;
+  padding: 8px;
+  margin: 5px 10px;
+  border-radius: 8px;
+}
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  width: 100%;
+  background-color:rgb(115, 152, 152)
+}
+.note{
+  height: 48vh;
+  width: 33%;
+  background-color: rgb(147, 103, 103);
+  width: 350px;
+  margin: 5px 20px 5px 20px;
+  
+}
+.tool{
+  background-color:#2d3436;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: end;
+}
+.tool i{
+  padding: 5px;
+  cursor: pointer;
+}
+.note textarea{
+  border: none;
+  width: 96%;
+  height: 40vh;
+  resize: none;
+  padding: 10px;
+  font-size: 18px;
+}
+.note textarea:focus{
+  border: 0;
+  outline: 0;
+}
+
+
+

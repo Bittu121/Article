@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px) {
+    /* start responsive navbar */
+    .navigation {
+      flex-direction: column;
+      height: 40vh;
+      width: 100%;
+    }
+    .nav-left {
+      flex-direction: column;
+    }
+    .nav-left ul {
+      flex-direction: column;
+      margin: 0px 35px;
+    }
+
+}
+
+h2{
+    text-align: center;
+    color:green;
+}
+#p1{
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+}
+.aboutPage1{
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.052);
+    margin: 2px 0px;
+    flex-direction: column;
+    margin: 0px 15px;
+    padding: 10px;
+}
+.div1{
+    background-color: rgba(139, 202, 254, 0.539);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.h1{
+    color: rgba(199, 54, 54, 0.928);
+    background-color: rgba(137, 43, 226, 0.227);
+    display: inline-block;
+    border-radius: 5px;
+}
+.p2{
+    color: rgba(210, 105, 30, 0.7);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.java{
+   background-color: coral;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+.h2{
+    color: green;
+    background-color:peru;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.p3{
+    color: blue;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.python{
+    background-color: lawngreen;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.h3{
+    color: blue;
+    background-color: rgb(228, 228, 115);
+    display: inline-block;
+    border-radius: 5px;
+}
+.p4{
+    color: rgb(80, 50, 34);
+    margin-top: 10px;
+}
